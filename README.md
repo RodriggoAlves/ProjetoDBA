@@ -112,3 +112,9 @@ WHERE id = 321;
 
 DELETE FROM Obitos
 WHERE id = 320;
+
+```
+
+### Link dos códigos para a criação do banco 
+
+https://rodriggoalves.github.io/ProjetoDBA/
