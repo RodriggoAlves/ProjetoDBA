@@ -89,3 +89,20 @@ VALUES (
     1,  -- Tipo de Óbito: DO (ID 1)
     '2024-11-21'
 );
+```
+
+#### Exemplo de Update de Dados:
+
+```sql
+UPDATE Obitos
+SET 
+    nome = 'João Da Silva', 
+    dt_nascimento = '1980-05-20', 
+    prontuario = 'PRT123456', 
+    sexo_id = 1,  -- Sexo: Masculino (ID 1)
+    especialidade_id = 2,  -- Especialidade: Cardiologia (ID 2)
+    local_id = 1,  -- Local: UTI-A (ID 1)
+    tipo_obito_id = 1,  -- Tipo de Óbito: DO (ID 1)
+    dt_obito = '2024-11-21'
+WHERE id = 320;
+
