@@ -104,5 +104,11 @@ SET
     local_id = 1,  -- Local: UTI-A (ID 1)
     tipo_obito_id = 1,  -- Tipo de Óbito: DO (ID 1)
     dt_obito = '2024-11-21'
-WHERE id = 320;
+WHERE id = 321;
+```
+#### Exemplo de Delete de Dados:
 
+```sql
+
+DELETE FROM Obitos
+WHERE id = 320;
